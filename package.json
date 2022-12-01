@@ -1,0 +1,23 @@
+{
+  "name": "info_bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasVbr/info_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasVbr/info_bot/issues"
+  },
+  "homepage": "https://github.com/LucasVbr/info_bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}

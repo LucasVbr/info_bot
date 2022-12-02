@@ -21,6 +21,8 @@ async def on_ready():
 @client.event
 async def on_message(message):
     msg = message.content
+    if message.author.bot:
+      return
 
     if msg.startswith("!help"):
         await message.channel.send("!message - envoie un message a la page\n"

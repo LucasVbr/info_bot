@@ -1,0 +1,9 @@
+doctype html
+html(lang=fr)
+  head
+    title Hello World
+    meta(charset="UTF-8")
+
+  body(style={background: styles.background})
+    each message in messages
+        p(style={color: styles.color})=message.text
